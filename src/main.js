@@ -7,7 +7,7 @@ import infiniteScroll from 'vue-infinite-scroll'
 import VueCookie from 'vue-cookie'
 import { userInfo } from './api'
 import { Button, Pagination, Checkbox, Icon, Autocomplete, Loading, Message, Notification, Steps, Step, Table, TableColumn } from 'element-ui'
-import { getStore } from '/utils/storage'
+import { getStore } from './utils/storage'
 Vue.use(Button)
 Vue.use(Pagination)
 Vue.use(Checkbox)
